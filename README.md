@@ -21,3 +21,5 @@ Portuguese Bank Marketing Dataset ([UCI ML Repository](https://archive.ics.uci.e
 git clone https://github.com/yourusername/telemarketing-success-prediction.git
 cd telemarketing-success-prediction
 pip install -r requirements.txt
+
+While the paper’s full ensemble-based system reports 98.6% accuracy, my project focuses on reproducing the performance of its Random Forest classifier component with the specified feature selection and resampling strategies. The reproduced accuracy of 84% confirms the expected challenge in achieving ensemble-reliant results without full system integration.
